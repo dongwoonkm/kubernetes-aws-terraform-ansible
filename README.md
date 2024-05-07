@@ -78,7 +78,7 @@ Steps for running Ansible
     Execute the playbook with the following command:
 
     ```
-    ansible-playbook -i inventory.ini deploy_kubernetes.yml
+    ansible-playbook -i inventory.yml playbook.yml
     ```
 
     This command specifies the inventory file (inventory.ini) and the playbook to execute (deploy_kubernetes.yml).
